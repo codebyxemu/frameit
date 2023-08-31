@@ -1,0 +1,27 @@
+.image {
+    margin-right: 30px;
+}
+
+.nav {
+    display: flex;
+    background-color: #dfdfdf;
+    color: #fff;
+    height: 60px;
+    justify-content: safe;
+    align-items: center;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    margin-right: 1rem;
+
+    color: black;
+}
+
+.links li {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+}
