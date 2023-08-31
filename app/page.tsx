@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { HeroSection } from './components/hero/Hero'
 import Features from './components/features/Features'
 import GetStartedCard from './components/cards/GetStartedCard'
+import FooterComponent from './components/footer/Footer'
+import BasicStatsCard from './components/stats/BasicStatsCard'
 
 export default function Home() {
   return(
@@ -12,6 +14,8 @@ export default function Home() {
     <HeroSection />
     <Features />
     <GetStartedCard />
+    <BasicStatsCard />
+    <FooterComponent />
 
       
     

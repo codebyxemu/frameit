@@ -1,7 +1,9 @@
 import { NavigationBar } from '@/app/components/navbar/Navbar'
-import GetStartedCard from '../components/cards/GetStartedCard'
-import PricingCard from '../components/cards/PricingCard'
+import GetStartedCard from '@/app/components/cards/GetStartedCard'
+import PricingCard from '@/app/components/cards/PricingCard'
 import { Metadata } from 'next'
+import AboutPage from '../about/page'
+import AboutMainCard from '@/app/components/about/AboutMainCard'
 
 export const metadata: Metadata = {
     title: 'FrameIt - Pricing',
@@ -13,6 +15,7 @@ export default function PricingPage() {
     <main>
 
     <NavigationBar />
+    <AboutMainCard />
     <PricingCard />
     <GetStartedCard />
 
